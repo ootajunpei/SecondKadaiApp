@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		054086AA25567F3C001EB1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054086A925567F3C001EB1C3 /* AppDelegate.swift */; };
 		054086AC25567F3C001EB1C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054086AB25567F3C001EB1C3 /* SceneDelegate.swift */; };
-		054086AE25567F3C001EB1C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054086AD25567F3C001EB1C3 /* ViewController.swift */; };
 		054086B125567F3C001EB1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054086AF25567F3C001EB1C3 /* Main.storyboard */; };
 		054086B325567F3F001EB1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054086B225567F3F001EB1C3 /* Assets.xcassets */; };
 		054086B625567F3F001EB1C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054086B425567F3F001EB1C3 /* LaunchScreen.storyboard */; };
+		054086C025569B31001EB1C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054086BF25569B31001EB1C3 /* ViewController.swift */; };
+		054086C225569B5F001EB1C3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054086C125569B5F001EB1C3 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		054086A625567F3C001EB1C3 /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		054086A925567F3C001EB1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		054086AB25567F3C001EB1C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		054086AD25567F3C001EB1C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		054086B025567F3C001EB1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		054086B225567F3F001EB1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		054086B525567F3F001EB1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		054086B725567F3F001EB1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054086BF25569B31001EB1C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		054086C125569B5F001EB1C3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				054086A925567F3C001EB1C3 /* AppDelegate.swift */,
 				054086AB25567F3C001EB1C3 /* SceneDelegate.swift */,
-				054086AD25567F3C001EB1C3 /* ViewController.swift */,
+				054086BF25569B31001EB1C3 /* ViewController.swift */,
+				054086C125569B5F001EB1C3 /* ResultViewController.swift */,
 				054086AF25567F3C001EB1C3 /* Main.storyboard */,
 				054086B225567F3F001EB1C3 /* Assets.xcassets */,
 				054086B425567F3F001EB1C3 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054086AE25567F3C001EB1C3 /* ViewController.swift in Sources */,
+				054086C025569B31001EB1C3 /* ViewController.swift in Sources */,
 				054086AA25567F3C001EB1C3 /* AppDelegate.swift in Sources */,
 				054086AC25567F3C001EB1C3 /* SceneDelegate.swift in Sources */,
+				054086C225569B5F001EB1C3 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

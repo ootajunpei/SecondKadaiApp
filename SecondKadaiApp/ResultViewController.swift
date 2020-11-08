@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ResultViewController.swift
 //  SecondKadaiApp
 //
 //  Created by 太田隼平 on 2020/11/07.
@@ -8,25 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var input: UITextField!
-    @IBAction func unwind(_ segue: UIStoryboardSegue) {
-    }
-    
-    
+class ResultViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+         name.text = "こんにちは\(output)さん"
+
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var name: UILabel!
     
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-             let inputdata = input.text
-    let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        resultViewController.output = inputdata!
-    }
-    
+    var output: String = "仮テキスト"
+   
+
     /*
     // MARK: - Navigation
 
